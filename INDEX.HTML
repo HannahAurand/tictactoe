@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="top">  
+        <div class="top_left">
+          <p> Layout: Flex Box</p>
+          <p class="yellow">Yellow: Total Grid Size<p>
+          <p class="pink">Pink: Row Size</p>
+          <p class="white">White: Cell size</p>
+        </div>
+        <div class="top_right">
+          <h1>Tic Tac Toe</h1>
+          <p>Plain Javascript</p>
+        </div>
+      </div> 
+      
+      <main class="example_row">
+      
+      <!--  The first tic tac toe grid   -->
+      <div class="grid">
+        <div class="row_A row">
+          <div id="A1" class="cell" onClick="reply_click(this.id)"></div>
+          <div id="A2" class="cell" onClick="reply_click(this.id)"></div>
+          <div id="A3" class="cell" onClick="reply_click(this.id)"></div>
+        </div>
+      
+        <div class="row_B row">
+          <div id="B1" class="cell" onClick="reply_click(this.id)"></div>
+          <div id="B2" class="cell" onClick="reply_click(this.id)"></div>
+          <div id="B3" class="cell" onClick="reply_click(this.id)"></div>
+        </div>
+      
+        <div class="row_c row">
+          <div id="C1" class="cell" onClick="reply_click(this.id)"></div>
+          <div id="C2" class="cell" onClick="reply_click(this.id)"></div>
+          <div id="C3" class="cell" onClick="reply_click(this.id)"></div>
+        </div>
+      </div>
+        
+      </main>
+
+</body>
+<script src="script.js"></script>
+</html>
